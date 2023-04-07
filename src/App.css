@@ -1,3 +1,10 @@
 .App {
   text-align: center;
+
+}
+
+header {
+  /* height: auto; */
+  text-align: justify;
+  margin: auto;
 }
