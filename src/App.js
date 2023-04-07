@@ -1,7 +1,8 @@
 import './App.css';
-import { AppBar, Button, Grid } from '@mui/material';
+import { AppBar, Button, ButtonGroup, Grid } from '@mui/material';
 
 function App() {
+
   return (
     <div className="App">
       <header>
@@ -20,10 +21,20 @@ function App() {
           </Grid>
         </AppBar>
       </header>
-      
 
+      <main className='main-class'>
+        <h1 color='black'>WORK AT TECH FORING LIMITED</h1>
 
-    </div>
+        <ButtonGroup variant="outlined" aria-label="outlined button group">
+          <Button>Software Project manager</Button>
+          <Button>Project Manager</Button>
+          <Button>Content Writer</Button>
+          <Button>Software Project manager</Button>
+          <Button>Project Manager</Button>
+          <Button>Content Writer</Button>
+        </ButtonGroup>
+      </main>
+    </div >
   );
 }
 

@@ -8,3 +8,8 @@ header {
   text-align: justify;
   margin: auto;
 }
+
+.main-class {
+  background-color: aquamarine;
+  margin-top: 100px;
+}
